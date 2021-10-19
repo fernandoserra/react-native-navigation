@@ -1,9 +1,7 @@
 import React, {useEffect, useState, useContext}from "react";
 import { View, Text, StyleSheet, StatusBar} from "react-native";
 import { SafeAreaView } from "react-navigation";
-
-import { Context } from "../context/DriverContext";
-
+import { Context } from "../context/AppContext";
 
 const HomeScreen = ({navigation})=>{
     return (

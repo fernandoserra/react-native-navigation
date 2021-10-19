@@ -1,6 +1,5 @@
 import createDataContext from './createDataContext';
 
-
 const fReducer =(state,action)=>{
     switch(action.type){
         case 'get_driver':
