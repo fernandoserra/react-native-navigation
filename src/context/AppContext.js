@@ -18,6 +18,5 @@ const getDriver = dispatch =>{
 export const { Context, Provider } = createDataContext(
     fReducer, 
     {getDriver}, 
-    //[{title:'TEST POST', content:'TEST CONTENT', id:1}]
     []
 );
