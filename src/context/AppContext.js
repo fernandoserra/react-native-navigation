@@ -11,7 +11,7 @@ const fReducer =(state,action)=>{
 
 const getDriver = dispatch =>{
     return  async () =>{
-        console.log("sipipipi")
+       
     };
 };
 

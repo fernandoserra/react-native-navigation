@@ -6,15 +6,25 @@ import { Context } from "../context/AppContext";
 const HomeScreen = ({navigation})=>{
     return (
         <SafeAreaView forceInset={{top:'always'}}>
-            <Text>HomeScreen</Text>
+            <View style={styles.container2}>
+                <Text style={styles.title}>HomeScreen.</Text>
+            </View>
         </SafeAreaView>
     ); 
 };
 
 const styles = StyleSheet.create({
     container: {
-        flex: 1,
-        marginTop:StatusBar.currentHeight
+        flex: 1
+    },
+    title:{
+        color:'#ffffff',
+        fontSize:20
+    },
+    container2:{
+        height:300,
+        backgroundColor:'blue',
+        justifyContent:'flex-end'
     }
 });
 
